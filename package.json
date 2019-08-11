@@ -1,0 +1,35 @@
+{
+    "name": "em-infra-site-2",
+    "version": "1.0.0",
+    "description": "This directory is a brief example of a vanilla site that can be deployed to ZEIT Now with zero configuration.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node ./node_modules/.bin/micro-dev -p 3000 app.js",
+        "build": "micro",
+        "start": "micro",
+        "start-dev": "micro-dev"
+    },
+    "files": [
+        "public/md"
+    ],
+    "bin": {
+        "micro": "./node_modules/.bin"
+    },
+    "author": "Cliff Crerar",
+    "license": "MIT",
+    "dependencies": {
+        "markdown-it": "^9.0.1",
+        "markdown-it-attrs": "^3.0.0",
+        "micro": "^9.3.4",
+        "micro-cors": "^0.1.1",
+        "micro-get": "^0.1.1",
+        "micro-dev": "^3.0.0"
+    },
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "engines": {
+        "node": ">=8.0.0 <11.0.0"
+    }
+}

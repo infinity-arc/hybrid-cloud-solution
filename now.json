@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "alias": "em-proposal",
+    "name": "em-proposal",
+    "builds": [
+        { "src": "public/*.*", "use": "@now/static" },
+        { "src": "public/md/*.*", "use": "@now/static" },
+        { "src": "public/png/*.png", "use": "@now/optipng" },
+        { "src": "index.js", "use": "@now/node" }
+    ],
+    "routes": [{ "src": "/(.*)", "dest": "index.js" }, { "src": "./png/(.*)", "dest": "/public/png/(.*)" }],
+    "public": true
+}
