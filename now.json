@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "alias": "em-proposal",
-    "name": "em-proposal",
+    "alias": "hybrid-cloud-design",
+    "name": "hybrid-cloud-design",
     "builds": [
         { "src": "public/*.*", "use": "@now/static" },
         { "src": "public/md/*.*", "use": "@now/static" },
