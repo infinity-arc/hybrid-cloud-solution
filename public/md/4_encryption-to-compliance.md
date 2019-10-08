@@ -22,7 +22,7 @@ With reference to section 24 of [this document](http://www.cipc.co.za/files/2413
 
 [Infinity Arc](www.infinityarc.net) subscribes to an industry standard, strict privacy and confidentiality policy. You can view these policies in our [public policies portal](http://policies.infintyarc.net).
 
-AWS published a document in July of 2019 to specifically address the situation of compliance with privacy and the protection of information entitled [Using AWS in the Context of South African Privacy Considerations](https://em-proposal-assets.c1i44.now.sh/public/Using_AWS_in_the_Context_of_South_African_Privacy_Considerations.pdf). This gives a clear guideline on how to implement AWS services to stay inline with the Protection of Personal Information Act. 
+AWS published a document in July of 2019 to specifically address the situation of compliance with privacy and the protection of information entitled [Using AWS in the Context of South African Privacy Considerations](https://hybrid-cloud-design.now.sh/public/Using_AWS_in_the_Context_of_South_African_Privacy_Considerations.pdf). This gives a clear guideline on how to implement AWS services to stay inline with the Protection of Personal Information Act. 
 
 Here is also a [list of testimonials](https://aws.amazon.com/compliance/testimonials/) as AWS must comply with privacy, security and confidentiality of information in several countries and industries as a global cloud provider.
 

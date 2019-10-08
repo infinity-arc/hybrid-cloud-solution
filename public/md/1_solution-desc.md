@@ -24,7 +24,7 @@ The one item, you are probably wondering about, is whether you have a firewall. 
 
 The only two components that will most probably not be installed on your network are the AWS Storage Gateway and the private encryption key:
 
-![Onsite new resources](https://em-proposal-assets.now.sh/public/png/onsitenew-recources.png) {style="text-align:center"}
+![Onsite new resources](https://hybrid-cloud-design.now.sh/public/png/onsitenew-recources.png) {style="text-align:center"}
 
 The **AWS storage gateway**, is as the the name suggest, the software service that must be installed in the office server. This component will allow the local network to connect to the cloud network or **virtual private cloud** (next sections will elaborate more on this).
 

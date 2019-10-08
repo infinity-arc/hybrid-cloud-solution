@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "alias": "hybrid-cloud-design",
     "name": "hybrid-cloud-design",
     "builds": [
         { "src": "public/*.*", "use": "@now/static" },
@@ -8,6 +7,12 @@
         { "src": "public/png/*.png", "use": "@now/optipng" },
         { "src": "index.js", "use": "@now/node" }
     ],
-    "routes": [{ "src": "/(.*)", "dest": "index.js" }, { "src": "./png/(.*)", "dest": "/public/png/(.*)" }],
+    "routes": [
+        { "src": "/(.*)", "dest": "index.js" }, 
+        { "src": "./png/(.*)", "dest": "/public/png/(.*)" },
+        { "src": "./public/(.*)", "dest": "/public/" },
+        {"src":"./style", "dest":"/public/style.css"},
+        {"src":"./diagram.svg","dest":"/public/diagram.svg"}
+    ],
     "public": true
 }
