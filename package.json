@@ -20,7 +20,7 @@
     "license": "MIT",
     "dependencies": {
         "markdown-it": "^10.0.0",
-        "markdown-it-attrs": "^3.0.0",
+        "markdown-it-attrs": "^3.0.3",
         "micro": "^9.3.4",
         "micro-cors": "^0.1.1",
         "micro-get": "^0.1.1",
